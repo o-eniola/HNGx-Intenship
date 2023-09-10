@@ -10,8 +10,8 @@ function updateCurrentDayAndTime() {
     "Saturday",
   ];
   const now = new Date();
-  const currentDay = daysOfWeek[now.getUTCDay()];
-  const currentUTC = now.toISOString().slice(11, 19);
+  const  daysOfWeek[now.getUTCDay()];
+  const now.toISOString().slice(11, 19);
 
   document.querySelector(
     '[data-testid="currentDayOfTheWeek"]'
